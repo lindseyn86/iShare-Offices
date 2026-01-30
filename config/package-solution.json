@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "offices-web-part-client-side-solution",
+    "id": "90474fb3-9f12-4c7a-90c9-d8824f33de75",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "offices-web-part description"
+      },
+      "longDescription": {
+        "default": "offices-web-part description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "offices-web-part Feature",
+        "description": "The feature that activates elements of the offices-web-part solution.",
+        "id": "b8be37ad-0843-4250-a739-aaef7646a23a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/offices-web-part.sppkg"
+  }
+}
